@@ -1,0 +1,24 @@
+@import "~antd/dist/antd.css";
+
+.slider img {
+  height: 85vh;
+  object-fit: cover;
+  width: 30vw;
+}
+#root {
+  overflow: hidden;
+}
+
+.img-show {
+  width: 100%;
+  height: 50px;
+  object-fit: contain;
+}
+.piechart {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 65vw;
+}
